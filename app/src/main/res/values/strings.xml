@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Radio-Unite</string>
+    <string name="action_settings">À propos</string>
+    <string name="required_connexion_body">Vous devez être connecté pour accèder au livestream de l\'ORTM.</string>
+    <string name="loading">Chargement en cours ...</string>
+    <string name="offlive">Direct TV ORTM indisponible pour le moment</string>
+    <string name="exit">Quiter</string>
+    <string name="exit_confirmed">Voulez vous vraiment quitter ?</string>
+    <string name="share">Partager</string>
+    <string name="about_long_description"><![CDATA[
+    <p>Cette application vous donne accès aux contenus Web de l&apos;Office de Radiodiffusion Télévision du Mali :</p>
+    <h6> * La télévision ORTM en direct</h6>
+    <h6> * La radio Chaine Nationale en direct</h6>
+    <h6> * La radio Chaine 2 en direct</h6>
+    <h6> * Le site web ORTM.ml</h6>
+    Pour toute suggestion ou tout commentaire, merci de contacter :]]></string>
+    <string name="version_button_label">Version %1$s (vérifier mises à jour)</string>
+    <string name="about_title"><![CDATA[ORTM pour Android ]]></string>
+<string name="required_connexion_radio"> "Vous devez être connecté pour écouter la radio"</string>
+    </resources>
