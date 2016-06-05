@@ -1,20 +1,29 @@
 <resources>
-    <string name="app_name">Radio-Unite</string>
+    <string name="app_name">Radio de l\'Unité</string>
     <string name="action_settings">À propos</string>
     <string name="required_connexion_body">Vous devez être connecté pour accèder au livestream de l\'ORTM.</string>
     <string name="loading">Chargement en cours ...</string>
-    <string name="offlive">Direct TV ORTM indisponible pour le moment</string>
     <string name="exit">Quiter</string>
     <string name="exit_confirmed">Voulez vous vraiment quitter ?</string>
     <string name="share">Partager</string>
     <string name="about_long_description"><![CDATA[
-    <p>Cette application vous donne accès aux contenus Web de l&apos;Office de Radiodiffusion Télévision du Mali :</p>
-    <h6> * La télévision ORTM en direct</h6>
-    <h6> * La radio Chaine Nationale en direct</h6>
-    <h6> * La radio Chaine 2 en direct</h6>
-    <h6> * Le site web ORTM.ml</h6>
-    Pour toute suggestion ou tout commentaire, merci de contacter :]]></string>
+        <p>La radio Unite la voix de Cheik Ahmed Tidiani est une radio confessionnelle islamique créée par l’association des Tidjanis pour l’appelle à l’islam. </>
+        <h6>Objectives:</h6>
+        1 : la connaissance et la diffusion de la Tidjaniya. <br/>
+        2 : la publication des moeurs. <br/>
+        3 : la sincérité dans les actes. <br/>
+
+        Adresse: Sirakoro Mèguètana, bamako, Mali. <br/>
+
+        Email: <br/>
+
+        Tel : +223 20 71 51 51 / +223 20 74 1 44 44 <br/>
+        Mobile : 76 46 29 90 / 76 45 22 44 / 66 83 01 83 <br/>
+
+        <h6> Fréquence :</h6> 101.6
+        <h6> Par : fad@yeleman.com </h6>
+        ]]>
+    </string>
     <string name="version_button_label">Version %1$s (vérifier mises à jour)</string>
-    <string name="about_title"><![CDATA[ORTM pour Android ]]></string>
 <string name="required_connexion_radio"> "Vous devez être connecté pour écouter la radio"</string>
     </resources>

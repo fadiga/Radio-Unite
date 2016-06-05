@@ -1,13 +1,10 @@
 package com.fadiga.radio_unite;
 
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -15,7 +12,6 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 
 import java.io.IOException;
-import android.support.v7.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity implements  View.OnClickListener {
 
@@ -46,6 +42,7 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
         pauseButton = (ImageView) findViewById(R.id.pauseButton);
         pauseButton.setOnClickListener(this);
         displayMediaPlayerBtn(false);
+        initializeMediaPlayer(true);
     }
 
     @Override

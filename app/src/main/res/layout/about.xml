@@ -3,27 +3,22 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="fill_parent"
-            android:background="#008a40">
+            android:background="@color/colorPrimary">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="10dp">
+        android:padding="10dp"
+        android:weightSum="1">
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="match_parent"
             android:id="@+id/imageView"
             android:layout_centerHorizontal="true"
-            android:layout_margin="10dp" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/updateVersionBtt"
-            android:textColor="#fff"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp" />
+            android:layout_margin="10dp"
+            android:src="@mipmap/ic_launcher"
+            />
 
         <TextView
             android:layout_width="match_parent"
@@ -31,14 +26,13 @@
             android:id="@+id/appLongDescriptionLabel"
             android:textColor="#fff" />
 
-        <TextView
-            android:layout_width="match_parent"
+        <Button
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/contact"
-            android:text="fad@yeleman.com"
-            android:autoLink="email"
-            android:textColorLink="#fff"
-            android:textStyle="bold" />
+            android:id="@+id/updateVersionBtt"
+            android:textColor="#fff"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"/>
 
     </LinearLayout>
 </ScrollView>
